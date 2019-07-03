@@ -1,3 +1,88 @@
-body {
-    background: red;
+$font--primary: #221e1b;
+
+$section-desktop: 1184px;
+
+h1 {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    color: $font--primary;
+    font-size: 100px;
+}
+
+h3 { font-family: 'Rubik', sans-serif;
+    font-weight: 300;
+    color: $font--primary;
+    font-size: 24px;
+}
+
+
+.nav__icons {
+    max-width: $section-desktop;
+    margin: auto;
+    margin-top: 2vh;
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-bottom: 100px;
+    justify-content: flex-end;
+
+    &--menu {
+        width: 30px;
+        height: auto;
+        margin-right: 12px;
+        :hover{
+            transform: scale(1.5);
+        }
+    }
+    &--contact {
+
+    }
+}
+
+.portfolio {
+    max-width: $section-desktop;
+    margin: auto;
+
+    &__wrapper {
+        max-width: 870px;
+        margin: auto;
+        display: flex;
+        flex-flow: wrap;
+        justify-content: space-around;
+    }
+
+    &__item {
+
+        border: 1px solid black;
+        border-radius: 10px;
+        margin-bottom: 60px;
+        overflow: hidden;
+
+        :hover{
+            transform: scale(1.2);
+        
+    }
+}
+
+    &__card {
+        width: 344px;
+        height: 300px;
+        transition: 0.2s ease;
+        cursor: pointer;
+    }
+}
+
+
+.intro {
+    max-width: $section-desktop;
+    margin: auto;
+
+    &__prime {
+        margin: 0;
+    }
+
+    &__secondary {
+        max-width: 320px;
+        margin-bottom: 60px;
+    }
 }

@@ -1,4 +1,94 @@
-body {
-  background: red;
+h1 {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 400;
+  color: #221e1b;
+  font-size: 100px;
+}
+
+h3 {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 300;
+  color: #221e1b;
+  font-size: 24px;
+}
+
+.nav__icons {
+  max-width: 1184px;
+  margin: auto;
+  margin-top: 2vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-left: auto;
+  margin-bottom: 100px;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.nav__icons--menu {
+  width: 30px;
+  height: auto;
+  margin-right: 12px;
+}
+
+.nav__icons--menu :hover {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+}
+
+.portfolio {
+  max-width: 1184px;
+  margin: auto;
+}
+
+.portfolio__wrapper {
+  max-width: 870px;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: wrap;
+      flex-flow: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.portfolio__item {
+  border: 1px solid black;
+  border-radius: 10px;
+  margin-bottom: 60px;
+  overflow: hidden;
+}
+
+.portfolio__item :hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.portfolio__card {
+  width: 344px;
+  height: 300px;
+  -webkit-transition: 0.2s ease;
+  transition: 0.2s ease;
+  cursor: pointer;
+}
+
+.intro {
+  max-width: 1184px;
+  margin: auto;
+}
+
+.intro__prime {
+  margin: 0;
+}
+
+.intro__secondary {
+  max-width: 320px;
+  margin-bottom: 60px;
 }
 /*# sourceMappingURL=main.css.map */
