@@ -1,0 +1,104 @@
+.nav__icons {
+  max-width: 1184px;
+  margin: auto;
+  margin-top: 2vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-left: auto;
+  margin-bottom: 100px;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.nav__icons--menu {
+  width: 30px;
+  height: auto;
+  margin-right: 12px;
+}
+
+.nav__icons--menu :hover {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+}
+
+body {
+  background: #a31111;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.perspective__text {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 58px;
+  font-weight: 900;
+  letter-spacing: -2px;
+  text-transform: uppercase;
+}
+
+.perspective__line {
+  height: 70px;
+  overflow: hidden;
+  position: relative;
+}
+
+.perspective__line p {
+  margin: 0;
+  height: 70px;
+  line-height: 70px;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.perspective__line:nth-child(odd) {
+  -webkit-transform: skew(60deg, -30deg) scaleY(0.667);
+          transform: skew(60deg, -30deg) scaleY(0.667);
+}
+
+.perspective__line:nth-child(even) {
+  -webkit-transform: skew(0deg, -30deg) scaleY(1.333);
+          transform: skew(0deg, -30deg) scaleY(1.333);
+}
+
+.perspective__line::nth-child(1) {
+  left: 49px;
+}
+
+.perspective__line::nth-child(2) {
+  left: 78px;
+}
+
+.perspective__line::nth-child(3) {
+  left: 107px;
+}
+
+.perspective__line::nth-child(4) {
+  left: 136px;
+}
+
+.perspective__line::nth-child(5) {
+  left: 165px;
+}
+
+.perspective__text:hover p {
+  -webkit-transform: translate(0, -70px);
+          transform: translate(0, -70px);
+}
+/*# sourceMappingURL=project1.css.map */
