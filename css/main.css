@@ -41,6 +41,10 @@ h3 {
           transform: scale(1.5);
 }
 
+.nav__icons--link {
+  cursor: pointer;
+}
+
 .portfolio {
   max-width: 1184px;
   margin: auto;
